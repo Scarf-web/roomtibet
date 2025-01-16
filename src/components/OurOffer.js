@@ -11,7 +11,7 @@ import "../styles/ouroffer.css";
 export default function OurOffer() {
   return (
     <section className="ourOfferContainer">
-      <div className="textContainer">
+      <div className="ourTextContainer">
         <h3>наше предложение</h3>
         <h2>Лучшие программы для тебя</h2>
         <p>

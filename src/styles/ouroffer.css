@@ -11,7 +11,7 @@
   column-gap: 90px;
 }
 
-.textContainer {
+.ourTextContainer {
   width: 580px;
   height: 591px;
   display: flex;
@@ -72,7 +72,7 @@
   object-fit: cover;
 }
 
-.textContainer button {
+.ourTextContainer button {
   width: 236px;
   height: 52px;
 }
