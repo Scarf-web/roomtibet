@@ -4,8 +4,8 @@ import topright from "../images/Offer/topright.jpeg";
 import downleft from "../images/Offer/downleft.jpeg";
 import downright from "../images/Offer/downright.jpeg";
 import gid from "../images/svgs/offer_gid.svg";
-import guard from "../images/svgs/offet_guard.svg"
-import price from "../images/svgs/offer_prices.svg"
+import guard from "../images/svgs/offet_guard.svg";
+import price from "../images/svgs/offer_prices.svg";
 import "../styles/ouroffer.css";
 
 export default function OurOffer() {
@@ -31,7 +31,7 @@ export default function OurOffer() {
           </div>
           <img src={guard} alt="img" />
           <div>
-            <h4>Опытный гид</h4>
+            <h4>Безопасный поход</h4>
             <p>
               Для современного мира базовый вектор развития предполагает
               независимые способы реализации соответствующих условий
@@ -40,7 +40,7 @@ export default function OurOffer() {
           </div>
           <img src={price} alt="img" />
           <div>
-            <h4>Опытный гид</h4>
+            <h4>Лояльные цены</h4>
             <p>
               Для современного мира базовый вектор развития предполагает
               независимые способы реализации соответствующих условий

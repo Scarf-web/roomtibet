@@ -22,7 +22,8 @@
   padding: 0px 19px;
   border-radius: 10px;
   background-color: #ffffff33;
-  backdrop-filter: blur(6);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 .form_item {
