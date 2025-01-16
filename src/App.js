@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles/app.css";
+import "../src/fonts/nextart/NEXT ART_Bold.otf";
+import "../src/fonts/nextart/NEXT ART_Heavy.otf";
+import "../src/fonts/nextart/NEXT ART_Light.otf";
+import "../src/fonts/nextart/NEXT ART_Regular.otf";
+import "../src/fonts/nextart/NEXT ART_SemiBold.otf";
+import MainBlock from "./components/Header And Form/MainBlock";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <MainBlock/>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.mainBlock {
+    max-width: 1920px;
+    min-width: 390px;
+    width: 100%;
+    height: 964px;
+    background-image: url(../../images/mainblock.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

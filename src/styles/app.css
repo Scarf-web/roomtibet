@@ -1,0 +1,102 @@
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@font-face {
+  font-family: "NEXT ART";
+  src: url(../fonts/nextart/NEXT\ ART_Bold.otf),
+    url(../fonts/nextart/NEXT\ ART_Heavy.otf),
+    url(../fonts/nextart/NEXT\ ART_Light.otf),
+    url(../fonts/nextart/NEXT\ ART_Regular.otf),
+    url(../fonts/nextart/NEXT\ ART_SemiBold.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  /* nav */
+  text-decoration: none;
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.55px;
+  text-align: left;
+  text-decoration: none;
+  color: #FDFDFD;
+  cursor: pointer;
+  text-align: center;
+}
+
+h1 {
+  /* first title */
+  font-family: "NEXT ART";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #FDFDFD;
+}
+
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+h3 { /* Yellow text on the title */
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #f2be22;
+}
+
+button {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A3E3E;
+  color: #FDFDFD;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  color: #1A3E3E;
+  background-color: #FDFDFD;
+  border: 1px solid #1A3E3E
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
