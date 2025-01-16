@@ -1,0 +1,78 @@
+.ourOfferContainer {
+  max-width: 1920px;
+  min-width: 390px;
+  width: 100%;
+  height: 771px;
+  background-color: #f3f5f4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 90px;
+}
+
+.textContainer {
+  width: 580px;
+  height: 591px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textGrid {
+  width: 100%;
+  height: 272px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50px auto;
+  grid-template-rows: 64px 64px 64px;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.textGrid p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.imageContainer {
+  width: 510px;
+  height: 510px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imageContainer img:nth-child(1) {
+  width: 250px;
+  height: 250px;
+  border-radius: 0px 50px 0px 50px;
+  object-fit: cover;
+}
+
+.imageContainer img:nth-child(2) {
+  width: 250px;
+  height: 250px;
+  border-radius: 50px 0px 50px 0px;
+  object-fit: cover;
+}
+
+.imageContainer img:nth-child(3) {
+  width: 250px;
+  height: 250px;
+  border-radius: 50px 0px 50px 0px;
+  object-fit: cover;
+}
+
+.imageContainer img:nth-child(4) {
+  width: 250px;
+  height: 250px;
+  border-radius: 0px 50px 0px 50px;
+  object-fit: cover;
+}
+
+.textContainer button {
+  width: 236px;
+  height: 52px;
+}
