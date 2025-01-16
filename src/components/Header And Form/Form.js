@@ -79,13 +79,19 @@ export default function Form() {
             <p>Участники</p>
             <img src={arrow} alt="img" />
             <div className={className}>
-              <p>ПОТАЛЬСКИЙ ДВОРЕЦ</p>
-              <p>ДЖОКАНГ ХРАМ</p>
-              <p>SERA МОНАСТЫРЬ</p>
-              <p>DREPUNG МОНАСТЫРЬ</p>
+              <p>4</p>
+              <p>5</p>
+              <p>6</p>
+              <p>7</p>
+              <p>8</p>
+              <p>9</p>
+              <p>10</p>
             </div>
           </div>
           <p className="form_hint">{isActive ? "минимуму 4 человека" : ""}</p>
+        </div>
+        <div className="form_item">
+          <button className="formButton">Найти программу</button>
         </div>
       </form>
     </div>
