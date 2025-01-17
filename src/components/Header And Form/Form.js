@@ -91,7 +91,7 @@ export default function Form() {
           <p className="form_hint">{isActive ? "минимуму 4 человека" : ""}</p>
         </div>
         <div className="form_item">
-          <button className="formButton">Найти программу</button>
+          <button className="formButton" type="button">Найти программу</button>
         </div>
       </form>
     </div>

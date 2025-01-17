@@ -8,6 +8,7 @@ import "../src/fonts/nextart/NEXT ART_SemiBold.otf";
 import MainBlock from "./components/Header And Form/MainBlock";
 import About from "./components/About";
 import OurOffer from "./components/OurOffer";
+import Popular from "./components/Popular";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MainBlock />
       <About />
       <OurOffer/>
+      <Popular/>
     </div>
   );
 }

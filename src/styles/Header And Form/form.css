@@ -115,6 +115,7 @@
   border-radius: 0px 0px 8px 8px;
   animation: dropdown 300ms ease-in-out forwards;
   overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 @keyframes dropdown {
