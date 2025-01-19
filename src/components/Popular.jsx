@@ -9,7 +9,7 @@ import CardItem from "./CardItem";
 export default function Popular() {
   return (
     <section className="popularContainer">
-      <div className="popularTitle">
+      <div className="titles" style={{alignItems: "center"}}>
         <h3>по версии отдыхающих</h3>
         <h2>Популярные направления</h2>
       </div>

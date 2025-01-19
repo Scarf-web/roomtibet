@@ -12,8 +12,10 @@ export default function OurOffer() {
   return (
     <section className="ourOfferContainer">
       <div className="ourTextContainer">
+        <div className="titles">
         <h3>наше предложение</h3>
         <h2>Лучшие программы для тебя</h2>
+        </div>
         <p>
           Его корни уходят в один фрагмент классической латыни 45 года н.э., то
           есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни

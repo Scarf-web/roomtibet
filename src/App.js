@@ -9,6 +9,8 @@ import MainBlock from "./components/Header And Form/MainBlock";
 import About from "./components/About";
 import OurOffer from "./components/OurOffer";
 import Popular from "./components/Popular";
+import Blog from "./components/Blog";
+import Impressions from "./components/Impressions";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <About />
       <OurOffer/>
       <Popular/>
+      <Blog/>
+      <Impressions/>
     </div>
   );
 }

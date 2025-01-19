@@ -8,7 +8,7 @@ export default function CardItem(props) {
       <img className="cardItemBg" src={props.image} alt="img" />
       <div className="popularRaiting">
         <img src={star} alt="img" />
-        <h5 className="estimation">{props.estimation}</h5>
+        <h5>{props.estimation}</h5>
       </div>
       <div className="cardItemInfo">
         <div className="cardItemInfoMain">

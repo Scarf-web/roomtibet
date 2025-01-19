@@ -131,3 +131,10 @@ button:hover {
   /* justify-content: space-between; */
   align-items: center;
 }
+
+.titles {
+  width: Hug (580px) px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}

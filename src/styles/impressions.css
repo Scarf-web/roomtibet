@@ -1,0 +1,56 @@
+.impressionsContainer {
+  width: 100%;
+  height: 1036px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 198px;
+}
+
+.impressionsGridContainer {
+  width: 1180px;
+  height: 520px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "first first two three"
+    "four five five six";
+  grid-template-rows: repeat(2, 250px);
+}
+
+.impressionsGridCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.imressionsMagnifier {
+  position: absolute;
+  object-fit: none;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.158);
+  opacity: 0;
+  transition-duration: 200ms;
+}
+
+.impressionsGirdImage {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.impressionsGridCard:hover .imressionsMagnifier {
+  opacity: 1;
+  
+}
+
+.impressionsButton {
+    width: 178px;
+    height: 52px;
+}
