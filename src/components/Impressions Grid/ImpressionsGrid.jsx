@@ -1,33 +1,38 @@
 import React from "react";
 import magnifier from "../../images/svgs/impressions_magnifier.svg";
+import {images} from "./Impressions.array";
+import Backdrop from '@mui/material/Backdrop';
 
-export default function ImpressionsGrid(props) {
+export default function ImpressionsGrid() {
+  const [open, setOpen] = React.useState(false);
+  const [activeSrc, setActiveSrc] = React.useState()
+  const handleClose = () => {
+    setOpen(false);
+    setActiveSrc(null)
+  };
+  const handleOpen = (src) => {
+    setOpen(true);
+    setActiveSrc(src)
+  };
+
+
   return (
     <div className="impressionsGridContainer">
-      <div className="impressionsGridCard" style={{ gridArea: "first" }}>
-        <img className="impressionsGirdImage" src={props.image_1} alt="img" />
-        <img className="imressionsMagnifier" src={magnifier} alt="img" />
-      </div>
-      <div className="impressionsGridCard" style={{ gridArea: "two" }}>
-        <img className="impressionsGirdImage" src={props.image_2} alt="img" />
-        <img className="imressionsMagnifier" src={magnifier} alt="img" />
-      </div>
-      <div className="impressionsGridCard" style={{ gridArea: "three" }}>
-        <img className="impressionsGirdImage" src={props.image_3} alt="img" />
-        <img className="imressionsMagnifier" src={magnifier} alt="img" />
-      </div>
-      <div className="impressionsGridCard" style={{ gridArea: "four" }}>
-        <img className="impressionsGirdImage" src={props.image_4} alt="img" />
-        <img className="imressionsMagnifier" src={magnifier} alt="img" />
-      </div>
-      <div className="impressionsGridCard" style={{ gridArea: "five" }}>
-        <img className="impressionsGirdImage" src={props.image_5} alt="img" />
-        <img className="imressionsMagnifier" src={magnifier} alt="img" />
-      </div>
-      <div className="impressionsGridCard" style={{ gridArea: "six" }}>
-        <img className="impressionsGirdImage" src={props.image_6} alt="img" />
-        <img className="imressionsMagnifier" src={magnifier} alt="img" />
-      </div>
+      {images.map(image => {
+        return (
+          <div className="impressionsGridCard noselect" key={image.id} style={image.area}>
+            <img className="impressionsGirdImage noselect" src={image.src} alt="img" />
+            <img onClick={() => {handleOpen(image.src)}} className="imressionsMagnifier noselect" src={magnifier} alt="img" />
+          </div>
+        )
+        })}
+      <Backdrop
+        sx={(theme) => ({ color: '#fff', zIndex: theme.zIndex.drawer + 1 })}
+        open={open}
+        onClick={handleClose}
+      >
+        <img src={activeSrc} alt="img" className="noselect"/>
+      </Backdrop>
     </div>
   );
 }

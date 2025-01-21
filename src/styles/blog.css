@@ -112,3 +112,62 @@
   text-decoration-skip-ink: none;
   color: #f2be22;
 }
+
+.blogGridCard__open {
+  width: 800px;
+  height: 650px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 0px 15px 0px #18121E1F;
+  background-color: #fdfdfd;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.blogGridCard__open img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+  position: relative;
+}
+
+.blogGridCard__open_title {
+  width: 320px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-blog__open {
+  font-family: "Nunito Sans";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #18121e;
+  transition-duration: 200ms;
+}
+
+.blogGridCard__open_text {
+  width: 90%;
+  height: 144px;
+  margin-top: 30px;
+}
+
+.p-blog__open {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #18121e;
+}
